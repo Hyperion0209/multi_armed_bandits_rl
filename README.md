@@ -3,6 +3,7 @@
 A comprehensive implementation and analysis of state-of-the-art multi-armed bandit algorithms, exploring the fundamental exploration-exploitation tradeoff in reinforcement learning.
 
 Please refer to report.pdf for understanding the theory behing the algorithms and analysis based on the graphs. 
+Based on the problem setup as defined on: https://www.cse.iitb.ac.in/~shivaram/teaching/old/cs747-a2023/pa-1/programming-assignment-1.html
 
 ## Project Structure
 ```
