@@ -61,7 +61,6 @@ Install required packages
 
 ```pip install -r requirements.txt```
 
-text
 
 ## Running the Code
 
