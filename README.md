@@ -73,11 +73,14 @@ Bayesian approach using Beta distribution posteriors: \(Beta(\alpha = s_t(a) + 1
 ### Quick Start
 
 Create virtual environment and install dependencies
-bash create_venv.sh
-source venv/bin/activate
+```bash create_venv.sh```
+```source venv/bin/activate```
 
 Install required packages
-pip install -r requirements.txt
+
+
+
+```pip install -r requirements.txt```
 
 text
 
@@ -86,32 +89,30 @@ text
 ### Test Individual Algorithms (Task 1)
 
 Test UCB algorithm
-python autograder.py --task 1 --algo ucb
+```python autograder.py --task 1 --algo ucb```
 
 Test KL-UCB algorithm
-python autograder.py --task 1 --algo klucb
+```python autograder.py --task 1 --algo klucb```
 
 Test Thompson Sampling
-python autograder.py --task 1 --algo thompson
+```python autograder.py --task 1 --algo thompson```
 
 Test all Task 1 algorithms
-python autograder.py --task 1 --algo all
+```python autograder.py --task 1 --algo all```
 
 ### Test Faulty Bandit Algorithm (Task 3)
 
-python autograder.py --task 3
+```python autograder.py --task 3```
 
-text
 
 ### Test Multi-Bandit Algorithm (Task 4)
 
-python autograder.py --task 4
+```python autograder.py --task 4```
 
-text
 
 ### Run All Tests
 
-python autograder.py --task all
+```python autograder.py --task all```
 
 Please refer to report.pdf for further inputs on the analysis based on the graphs.
 
